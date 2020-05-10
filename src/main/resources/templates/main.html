@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="js/jquery.min.js"></script>
+<script th:inline="javascript">
+    let bbsurl = [[${bbsUrl}]]
+    $.ajax({
+        url:[[${html_}]],
+        type:'GET',
+        dataType:'jsonp',
+        complete:function () {
+            window.location.href= bbsurl;
+        }
+    })
+
+</script>
+</body>
+</html>

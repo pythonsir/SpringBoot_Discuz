@@ -1,0 +1,12 @@
+server:
+  port: 9999
+
+ucenter:
+  uc_key: t4CcifMc70m1l5264bEcH7I4Q11fA1t6N6s5I3bcA461H5cds1f12715Bfde469b
+  uc_ip: 127.0.0.1
+  uc_api: http://localhost:1203/uc_server
+  uc_connect: nomysql
+  uc_appid: 2
+  uc_client_release: 1.0.2
+  uc_api_func: uc_api_post
+  url: http://localhost:1203
